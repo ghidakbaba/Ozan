@@ -133,6 +133,14 @@ h3 { font-size: 1.2rem; }
 .cta { text-align: center; max-width: 780px; }
 .cta p { margin-bottom: 24px; }
 
+.social-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
 .footer { border-top: 1px solid var(--line); padding: 48px 0; color: var(--muted); }
 .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
 .footer h3, .footer h4 { color: var(--text); margin: 0 0 10px; }
