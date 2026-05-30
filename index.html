@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ozan Akbaba | Actor & Composer</title>
+  <meta name="description" content="A modern fan website about Turkish actor and composer Ozan Akbaba: biography, career, filmography, music, awards and latest projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="brand">Ozan<span>Akbaba</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#career">Career</a>
+        <a href="#filmography">Filmography</a>
+        <a href="#music">Music</a>
+        <a href="#awards">Awards</a>
+        <a class="btn btn-small" href="#sources">Sources</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Turkish actor • composer • screen performer</p>
+          <h1>Ozan Akbaba</h1>
+          <p class="hero-text">
+            A cinematic profile website for one of Turkey’s recognizable television and film faces, known for powerful roles across drama, action, and character-led storytelling.
+          </p>
+          <div class="hero-actions">
+            <a href="#filmography" class="btn">Explore Career</a>
+            <a href="https://www.instagram.com/ozanakbaba/" target="_blank" rel="noopener" class="btn btn-ghost">Instagram</a>
+          </div>
+          <div class="stats">
+            <div><strong>1982</strong><span>Born in Kars</span></div>
+            <div><strong>2015–2021</strong><span>EDHO era</span></div>
+            <div><strong>2024–</strong><span>Uzak Şehir</span></div>
+          </div>
+        </div>
+        <div class="hero-card reveal delay-1" aria-label="Stylized Ozan Akbaba visual card">
+          <div class="portrait-placeholder">
+            <span>OA</span>
+          </div>
+          <div class="floating-card card-one">Actor</div>
+          <div class="floating-card card-two">Composer</div>
+          <div class="hero-card-info">
+            <h2>Ozan Akbaba</h2>
+            <p>Born June 9, 1982 • Kars, Turkey</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About him</p>
+        <h2>Biography</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>Early life & education</h3>
+          <p>
+            Ozan Akbaba was born in Kars, Turkey, on June 9, 1982. He graduated from Akdeniz University’s Faculty of Fine Arts, Department of Interior Architecture and Environmental Design.
+          </p>
+        </article>
+        <article class="glass-card reveal delay-1">
+          <h3>Acting identity</h3>
+          <p>
+            He is best known to many viewers for portraying İlyas Çakırbeyli in <em>Eşkıya Dünyaya Hükümdar Olmaz</em>, a role that became one of the major milestones of his TV career.
+          </p>
+        </article>
+        <article class="glass-card reveal delay-2">
+          <h3>Beyond acting</h3>
+          <p>
+            Alongside acting, Akbaba has worked in music and composition, with credits connected to film and television projects.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="career">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Career journey</p>
+          <h2>Key milestones</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>2006</span>
+            <h3>Early screen work</h3>
+            <p>Appeared in early television projects including <em>Kırık Kanatlar</em>.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2015</span>
+            <h3>Breakthrough recognition</h3>
+            <p>Joined <em>Eşkıya Dünyaya Hükümdar Olmaz</em> as İlyas Çakırbeyli.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2022</span>
+            <h3>Medical drama lead</h3>
+            <p>Starred in TRT’s <em>Kasaba Doktoru</em>, centered around doctors in a remote town hospital.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>2024</span>
+            <h3>Uzak Şehir</h3>
+            <p>Returned to a high-profile drama role as Cihan Albora in <em>Uzak Şehir</em>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="filmography">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected work</p>
+        <h2>Filmography</h2>
+      </div>
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="tv">TV</button>
+        <button class="filter-btn" data-filter="film">Film</button>
+      </div>
+      <div class="works-grid" id="worksGrid"></div>
+    </section>
+
+    <section class="section music-section" id="music">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Music</p>
+          <h2>Actor with a composer side</h2>
+          <p>
+            Ozan Akbaba is also associated with music and soundtrack work. His public streaming profile describes him as an actor, composer musician, and art lover.
+          </p>
+        </div>
+        <div class="music-card reveal delay-1">
+          <span class="music-icon">♪</span>
+          <h3>Listen & discover</h3>
+          <p>Use the official/social links to explore his music presence and current creative projects.</p>
+          <a class="btn btn-small" href="https://open.spotify.com/artist/12oD7zreUDTs0h35q5zbky" target="_blank" rel="noopener">Spotify</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="awards">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Recognition</p>
+        <h2>Awards & nominations</h2>
+      </div>
+      <div class="awards-grid">
+        <div class="award-card reveal">
+          <h3>IMDb awards record</h3>
+          <p>IMDb lists awards and nominations connected to his acting work, including recognition around <em>Eşkıya Dünyaya Hükümdar Olmaz</em>.</p>
+        </div>
+        <div class="award-card reveal delay-1">
+          <h3>Audience impact</h3>
+          <p>His roles in long-running Turkish dramas helped build a large fanbase across television and social platforms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta reveal">
+        <h2>Built for GitHub Pages</h2>
+        <p>This website uses plain HTML, CSS and JavaScript. No build tools, no backend, no paid APIs.</p>
+        <a href="#sources" class="btn">View sources</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="sources">
+    <div class="container footer-grid">
+      <div>
+        <h3>Ozan Akbaba Website</h3>
+        <p>Fan-made informational website. Not official and not affiliated with Ozan Akbaba.</p>
+      </div>
+      <div>
+        <h4>Sources used</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Ozan_Akbaba" target="_blank" rel="noopener">Wikipedia biography and filmography</a></li>
+          <li><a href="https://www.imdb.com/name/nm4373784/" target="_blank" rel="noopener">IMDb profile</a></li>
+          <li><a href="https://www.kanald.com.tr/uzak-sehir/oyuncular/ozan-akbaba" target="_blank" rel="noopener">Kanal D Uzak Şehir profile</a></li>
+          <li><a href="https://www.trt1.com.tr/diziler/kasaba-doktoru" target="_blank" rel="noopener">TRT Kasaba Doktoru page</a></li>
+          <li><a href="https://www.instagram.com/ozanakbaba/" target="_blank" rel="noopener">Official Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
